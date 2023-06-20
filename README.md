@@ -45,6 +45,9 @@
 
 <p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=sairohith28&show_icons=true&locale=en&layout=compact" alt="sairohith28" /></p>
 
+### You can checkout my blogs :loudspeaker: 
+[![Sai Rohith's Blog Cards](https://github-cards-external-blogs.souravdey777.vercel.app/getMediumBlogs?username=vulapusairohith28&type=vertical)](https://medium.com/@vulapusairohith28)
+
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=sairohith28&show_icons=true&locale=en" alt="sairohith28" /></p>
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=sairohith28&" alt="sairohith28" /></p>
