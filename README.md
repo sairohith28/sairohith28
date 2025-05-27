@@ -1,6 +1,4 @@
-<div align="center">
-  <img src="banner.svg" alt="Sai Rohith - AI Engineer" width="100%" />
-</div>
+![Banner](banner.svg)
 
 <div align="center">
   
