@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="sai-rohith-ai-banner.svg" alt="Sai Rohith - AI Engineer" width="100%" />
+  <img src="https://raw.githubusercontent.com/sairohith28/sairohith28/main/sai-rohth-ai-banner.svg" alt="Sai Rohith - AI Engineer" width="100%" />
 </div>
 
 <div align="center">
