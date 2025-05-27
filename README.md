@@ -1,4 +1,84 @@
-![Banner](./banner.svg)
+<div align="center">
+<svg width="800" height="200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#0f0f0f;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a1a1a;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1d4ed8;stop-opacity:1" />
+    </linearGradient>
+    <filter id="softGlow">
+      <feGaussianBlur stdDeviation="1" result="coloredBlur"/>
+      <feMerge> 
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="800" height="200" fill="url(#bgGradient)"/>
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#262626" stroke-width="0.5" opacity="0.3"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="200" fill="url(#grid)"/>
+  <g transform="translate(60, 70)">
+    <circle cx="30" cy="30" r="28" fill="none" stroke="url(#accentGradient)" stroke-width="1.5" opacity="0.4"/>
+    <circle cx="8" cy="20" r="3" fill="url(#accentGradient)" opacity="0.8"/>
+    <circle cx="8" cy="30" r="3" fill="url(#accentGradient)" opacity="0.8"/>
+    <circle cx="8" cy="40" r="3" fill="url(#accentGradient)" opacity="0.8"/>
+    <circle cx="25" cy="15" r="4" fill="url(#accentGradient)" opacity="0.9"/>
+    <circle cx="25" cy="30" r="5" fill="url(#accentGradient)" filter="url(#softGlow)"/>
+    <circle cx="25" cy="45" r="4" fill="url(#accentGradient)" opacity="0.9"/>
+    <circle cx="42" cy="25" r="3" fill="url(#accentGradient)" opacity="0.8"/>
+    <circle cx="42" cy="35" r="3" fill="url(#accentGradient)" opacity="0.8"/>
+    <line x1="11" y1="20" x2="21" y2="15" stroke="url(#accentGradient)" stroke-width="1" opacity="0.6"/>
+    <line x1="11" y1="20" x2="21" y2="30" stroke="url(#accentGradient)" stroke-width="1" opacity="0.6"/>
+    <line x1="11" y1="30" x2="21" y2="15" stroke="url(#accentGradient)" stroke-width="1.5" opacity="0.8"/>
+    <line x1="11" y1="30" x2="21" y2="30" stroke="url(#accentGradient)" stroke-width="2" opacity="1"/>
+    <line x1="11" y1="30" x2="21" y2="45" stroke="url(#accentGradient)" stroke-width="1.5" opacity="0.8"/>
+    <line x1="11" y1="40" x2="21" y2="30" stroke="url(#accentGradient)" stroke-width="1" opacity="0.6"/>
+    <line x1="11" y1="40" x2="21" y2="45" stroke="url(#accentGradient)" stroke-width="1" opacity="0.6"/>
+    <line x1="29" y1="15" x2="39" y2="25" stroke="url(#accentGradient)" stroke-width="1.5" opacity="0.7"/>
+    <line x1="29" y1="30" x2="39" y2="25" stroke="url(#accentGradient)" stroke-width="2" opacity="1"/>
+    <line x1="29" y1="30" x2="39" y2="35" stroke="url(#accentGradient)" stroke-width="2" opacity="1"/>
+    <line x1="29" y1="45" x2="39" y2="35" stroke="url(#accentGradient)" stroke-width="1.5" opacity="0.7"/>
+    <text x="30" y="35" font-family="Arial, sans-serif" font-size="8" font-weight="600" 
+          text-anchor="middle" fill="url(#accentGradient)" opacity="0.7">AI</text>
+    <circle cx="30" cy="30" r="22" fill="none" stroke="url(#accentGradient)" stroke-width="0.5" opacity="0.3" 
+            stroke-dasharray="3,6"/>
+    <circle cx="30" cy="30" r="18" fill="none" stroke="url(#accentGradient)" stroke-width="0.5" opacity="0.2" 
+            stroke-dasharray="2,4"/>
+  </g>
+  <text x="200" y="90" font-family="Arial, sans-serif" font-size="42" font-weight="300" 
+        fill="#ffffff" filter="url(#softGlow)">
+    Sai Rohith
+  </text>
+  <text x="200" y="120" font-family="Arial, sans-serif" font-size="18" font-weight="400"
+        fill="url(#accentGradient)">
+    AI Engineer &amp; Technology Enthusiast
+  </text>
+  <line x1="200" y1="135" x2="350" y2="135" stroke="url(#accentGradient)" stroke-width="1" opacity="0.6"/>
+  <text x="200" y="155" font-family="Arial, sans-serif" font-size="14" 
+        fill="#a1a1aa" opacity="0.8">
+    Machine Learning • Deep Learning • AI Development
+  </text>
+  <g transform="translate(650, 60)">
+    <polygon points="20,5 35,15 35,35 20,45 5,35 5,15" fill="none" stroke="url(#accentGradient)" stroke-width="1"/>
+    <polygon points="20,15 30,22 30,33 20,40 10,33 10,22" fill="none" stroke="url(#accentGradient)" stroke-width="0.5" opacity="0.6"/>
+    <circle cx="20" cy="27.5" r="3" fill="url(#accentGradient)" opacity="0.4"/>
+  </g>
+  <g transform="translate(550, 120)">
+    <rect x="0" y="15" width="3" height="15" fill="url(#accentGradient)" opacity="0.6"/>
+    <rect x="8" y="10" width="3" height="20" fill="url(#accentGradient)" opacity="0.8"/>
+    <rect x="16" y="5" width="3" height="25" fill="url(#accentGradient)"/>
+    <rect x="24" y="12" width="3" height="18" fill="url(#accentGradient)" opacity="0.7"/>
+    <rect x="32" y="8" width="3" height="22" fill="url(#accentGradient)" opacity="0.9"/>
+  </g>
+</svg>
+</div>
 
 <div align="center">
   
