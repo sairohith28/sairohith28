@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://github.com/sairohith28">
-  ![Sai Rohth - AI Enthusiast](./mysvg.svg)
+  ![Sai Rohth - AI Enthusiast](sairohith28/mysvg.svg)
   </a>
 </div>
 
