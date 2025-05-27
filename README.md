@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://github.com/sairohith28">
-    <img src="https://media.giphy.com/media/7c8QeB0VMddFOuu4iR/giphy.gif" alt="MasterHead" width="100%" style="max-width: 800px;">
+  ![Sai Rohth - AI Enthusiast](./mysvg.svg)
   </a>
 </div>
 
