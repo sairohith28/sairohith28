@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./mysvg.svg" alt="Sai Rohith - AI Engineer" width="100%" />
+  <img src="./banner.svg" alt="Sai Rohith - AI Engineer" width="100%" />
 </div>
 
 <div align="center">
